@@ -1,0 +1,15 @@
+*{box-sizing:border-box}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;color:#111;background:#fafafa;line-height:1.6}
+a{color:#0b5cff;text-decoration:none}.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+.top{background:#111;color:#fff;padding:14px 0}.top .wrap{display:flex;gap:16px;align-items:center;flex-wrap:wrap}
+.logo{font-size:22px;font-weight:800;color:#fff}.tagline{color:#bbb;font-size:14px}.top nav{margin-left:auto}.top nav a{color:#fff;margin-left:16px}
+.hero{background:#fff;border:1px solid #eee;border-radius:12px;padding:28px;margin:24px 0}.hero h1{margin:0 0 8px;font-size:28px}
+.today{color:#888}.stats{display:flex;gap:32px;margin:16px 0}.stats strong{display:block;font-size:32px}.stats span{color:#666}
+.note{color:#888;font-size:14px;background:#f6f6f6;padding:10px 12px;border-radius:8px}
+.champions,.lists{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+@media(max-width:700px){.champions,.lists{grid-template-columns:1fr}}
+.card,.list{background:#fff;border:1px solid #eee;border-radius:12px;padding:20px}
+.card h3,.list h3{margin:0 0 8px}.name{font-size:18px;font-weight:700}.name span{color:#888;font-weight:400;font-size:14px}
+.value{font-size:26px;font-weight:800;margin:8px 0}.card ul{list-style:none;padding:0;display:flex;gap:12px;flex-wrap:wrap;color:#555}
+.list ol{padding-left:20px}.list li{margin:6px 0}.archive-list li{margin:8px 0}
+.post{background:#fff;border:1px solid #eee;border-radius:12px;padding:28px;margin:24px 0}
+.foot{color:#888;font-size:13px;padding:24px 20px 40px}
