@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://deepblock666.github.io/sitemap.xml
